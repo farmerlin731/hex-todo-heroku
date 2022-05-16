@@ -1,0 +1,15 @@
+{
+  "name": "hex-todolist-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "creatServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node createServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
