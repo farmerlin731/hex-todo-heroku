@@ -105,4 +105,4 @@ const reqListener = (req, res) => {
 
 const server = http.createServer(reqListener);
 
-server.listen('9527');
+server.listen(process.env.PORT || 9527);
